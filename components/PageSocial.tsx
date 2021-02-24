@@ -5,6 +5,7 @@ import * as config from 'lib/config'
 
 import styles from './PageSocial.module.css'
 
+
 interface SocialLink {
   name: string
   title: string
@@ -48,6 +49,7 @@ const socialLinks: SocialLink[] = [
 ].filter(Boolean)
 
 export const PageSocial: React.FC = () => {
+
   return (
     <div className={styles.pageSocial}>
       {socialLinks.map((action) => (
