@@ -4,7 +4,7 @@
   </a>
 </p>
 
-# Next.js Notion Starter Kit
+# Notion Starter Kit Using Next.Js
 
 > The perfect starter kit for building websites with Next.js and Notion.
 
@@ -12,7 +12,7 @@
 
 ## Intro
 
-This repo is what I use to power my personal blog / portfolio site [transitivebullsh.it](https://transitivebullsh.it).
+This repo is what I use to power my personal blog / portfolio site [tirthpatel.vercel.app/](https://tirthpatel.vercel.app/).
 
 It uses Notion as a CMS, fetching content from Notion and then uses [Next.js](https://nextjs.org/) and [react-notion-x](https://github.com/NotionX/react-notion-x) to render everything.
 
@@ -24,7 +24,7 @@ The site is then deployed to [Vercel](http://vercel.com).
 - Robust support for Notion content via [react-notion-x](https://github.com/NotionX/react-notion-x)
 - Next.js / TS / React / Notion
 - Excellent page speeds
-- Sexy LQIP image previews
+- Amazing LQIP image previews
 - Embedded GitHub comments
 - Automatic open graph images
 - Automatic pretty URLs
@@ -46,19 +46,19 @@ The site is then deployed to [Vercel](http://vercel.com).
 
 I tried to make configuration as easy as possible.
 
-All you really need to do to get started is edit `rootNotionPageId`. It defaults to rendering my site's public notion page [78fc5a4b88d74b0e824e29407e9f1ec1](https://notion.so/78fc5a4b88d74b0e824e29407e9f1ec1).
+All you really need to do to get started is edit `rootNotionPageId`. It defaults to rendering my site's public notion page [b4e78eac0aea4c6d90dc8da036598b68](https://www.notion.so/b4e78eac0aea4c6d90dc8da036598b68).
 
-You'll want to make your root Notion page **public** and then copy the link to your clipboard. Then extract the last part of the URL that looks like `d1b5dcf8b9ff425b8aef5ce6f0730202`, which is your page's Notion iD.
+You'll want to make your root Notion page **public** and then copy the link to your clipboard. Then extract the last part of the URL that looks like `ea785093f0d94af4a6e3aaa936859cbf`, which is your page's Notion iD.
 
-I recommend setting up a collection on your home page (I use an inline gallery [here](https://notion.so/78fc5a4b88d74b0e824e29407e9f1ec1)) that contains all of your articles / projects / content. There are no structural constraints on your Notion workspace, however, so feel free to add content as you would normally in Notion. There are a few parts of the code with logic to only show comments on blog post pages (collection item detail pages).
+I recommend setting up a collection on your home page (I use an inline gallery [here](https://www.notion.so/b4e78eac0aea4c6d90dc8da036598b68)) that contains all of your articles / projects / content. There are no structural constraints on your Notion workspace, however, so feel free to add content as you would normally in Notion. There are a few parts of the code with logic to only show comments on blog post pages (collection item detail pages).
 
 ## URL Paths
 
 The app defaults to slightly different pathnames in dev and prod (though pasting any dev pathname into prod will work and vice-versa).
 
-In development, it will use `/nextjs-notion-blog-d1b5dcf8b9ff425b8aef5ce6f0730202` which is a slugified version of the page's title suffixed with its Notion ID. I've found that it's really useful to always have the Notion Page ID front and center during local development.
+In development, it will use `/Notion-Starter-Kit-Using-NextJS-Blog-ea785093f0d94af4a6e3aaa936859cbf` which is a slugified version of the page's title suffixed with its Notion ID. I've found that it's really useful to always have the Notion Page ID front and center during local development.
 
-In production, it will use `/nextjs-notion-blog` which is a bit nicer as it gets rid of the extra ID clutter.
+In production, it will use `/Notion-Starter-Kit-Using-NextJS-Blog` which is a bit nicer as it gets rid of the extra ID clutter.
 
 The mapping of Notion ID to slugified page titles is done automatically for you as part of the build process. Just keep in mind that if you plan on changing page titles over time, you probably want to make sure old links will still work, and we don't currently provide a solution for detecting old links aside from Next.js built-in [support for redirects](https://nextjs.org/docs/api-reference/next.config.js/redirects).
 
@@ -77,12 +77,12 @@ It should be pretty easy to customize most styling-related things, especially wi
 ### Dark Mode
 
 <p align="center">
-  <img alt="Light Mode" src="https://ssfy.io/https%3A%2F%2Fwww.notion.so%2Fimage%2Fhttps%253A%252F%252Fs3-us-west-2.amazonaws.com%252Fsecure.notion-static.com%252F83ea9f0f-4761-4c0b-b53e-1913627975fc%252Ftransitivebullsh.it_-opt.jpg%3Ftable%3Dblock%26id%3Ded7e8f60-c6d1-449e-840b-5c7762505c44%26cache%3Dv2" width="45%"> 
+  <img alt="Light Mode" src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/bec13b8e-7cbf-48cc-aae4-7b6d8ade2441/Screenshot_2021-02-24_201822.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210224%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210224T092054Z&X-Amz-Expires=86400&X-Amz-Signature=5bcb6199b5c34d2d0bcbec3f8e719dae91c041dcac796da37b90a83b5955eb83&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Screenshot_2021-02-24_201822.png%22" width="45%"> 
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Dark Mode" src="https://ssfy.io/https%3A%2F%2Fwww.notion.so%2Fimage%2Fhttps%253A%252F%252Fs3-us-west-2.amazonaws.com%252Fsecure.notion-static.com%252Fc0839d6c-7141-48df-8afd-69b27fed84aa%252Ftransitivebullsh.it__(1)-opt.jpg%3Ftable%3Dblock%26id%3D23b11fe5-d6df-422d-9674-39cf7f547523%26cache%3Dv2" width="45%">
+  <img alt="Dark Mode" src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/949dae1a-54ad-4804-875f-8cbf9221e5c4/Screenshot_2021-02-24_201900.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210224%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210224T092310Z&X-Amz-Expires=86400&X-Amz-Signature=66ffdf9b0f347e642bee3e295fccf953d0b7f977be0d991306db3adbe86c68e3&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Screenshot_2021-02-24_201900.png%22" width="45%">
 </p>
 
-Dark mode is fully supported and can be toggled via the sun / moon icon in the footer.
+Dark mode is fully supported and can be toggled via the Sun / Moon icon in the footer.
 
 ## Extras
 
