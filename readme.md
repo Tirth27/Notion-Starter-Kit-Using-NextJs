@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://transitivebullsh.it/nextjs-notion-starter-kit">
-    <img alt="Example article page" src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f43c309a-f50a-4617-a255-b181f8384829/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210224%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210224T100225Z&X-Amz-Expires=86400&X-Amz-Signature=1ae0cb48ab0bb54537e6680d536858c33783604c2aaa2a4db9204d6ddde00b75&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" width="689">
+    <img alt="Example article page" src="https://github.com/Tirth27/Notion-Starter-Kit-Using-NextJs/blob/main/readme_images/1.png" width="689">
   </a>
 </p>
 
@@ -77,9 +77,9 @@ It should be pretty easy to customize most styling-related things, especially wi
 ### Dark Mode
 
 <p align="center">
-  <img alt="Light Mode" src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/bec13b8e-7cbf-48cc-aae4-7b6d8ade2441/Screenshot_2021-02-24_201822.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210224%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210224T092054Z&X-Amz-Expires=86400&X-Amz-Signature=5bcb6199b5c34d2d0bcbec3f8e719dae91c041dcac796da37b90a83b5955eb83&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Screenshot_2021-02-24_201822.png%22" width="45%"> 
+  <img alt="Light Mode" src="https://github.com/Tirth27/Notion-Starter-Kit-Using-NextJs/blob/main/readme_images/2.png" width="45%"> 
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Dark Mode" src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/949dae1a-54ad-4804-875f-8cbf9221e5c4/Screenshot_2021-02-24_201900.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210224%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210224T092310Z&X-Amz-Expires=86400&X-Amz-Signature=66ffdf9b0f347e642bee3e295fccf953d0b7f977be0d991306db3adbe86c68e3&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Screenshot_2021-02-24_201900.png%22" width="45%">
+  <img alt="Dark Mode" src="https://github.com/Tirth27/Notion-Starter-Kit-Using-NextJs/blob/main/readme_images/3.png" width="45%">
 </p>
 
 Dark mode is fully supported and can be toggled via the Sun / Moon icon in the footer.
@@ -136,7 +136,7 @@ The actual work happens in the [create-preview-image](./api/create-preview-image
 ### Automatic Social Images
 
 <p align="center">
-  <img alt="Auto-generated social image" src="https://ssfy.io/https%3A%2F%2Fwww.notion.so%2Fimage%2Fhttps%253A%252F%252Fs3-us-west-2.amazonaws.com%252Fsecure.notion-static.com%252Fe1877c31-0bc9-46b7-8aaf-7bcae21baf2b%252Fsocial-image-opt.jpeg%3Ftable%3Dblock%26id%3D735b04d2-2a77-4035-8942-a17f8d41fe83%26cache%3Dv2" width="420">
+  <img alt="Auto-generated social image" src="https://github.com/Tirth27/Notion-Starter-Kit-Using-NextJs/blob/main/public/social.jpg" width="420">
 </p>
 
 Open Graph images like this one will be generated for each page of your site automatically based each page's content.
@@ -171,24 +171,24 @@ This table of contents uses the same logic that Notion uses for its built-in Tab
 ### Mobile Article Page
 
 <p align="center">
-  <a href="https://transitivebullsh.it/free-resources-for-indie-saas-devs">
-    <img alt="Mobile Article Page" src="https://ssfy.io/https%3A%2F%2Fwww.notion.so%2Fimage%2Fhttps%253A%252F%252Fs3-us-west-2.amazonaws.com%252Fsecure.notion-static.com%252F6c05a0f9-59a0-4322-bef9-3f08fe4efc6a%252Farticle-mobile-opt.jpg%3Ftable%3Dblock%26id%3Da1eb2263-fdf1-4d51-a3d4-8a02cb32bbba%26cache%3Dv2" width="300">
+  <a href="https://tirthpatel.vercel.app/overview-on-what-is-text-analysis">
+    <img alt="Mobile Article Page" src="https://github.com/Tirth27/Notion-Starter-Kit-Using-NextJs/blob/main/readme_images/4.jpg" width="300">
   </a>
 </p>
 
 ### Desktop Home Page
 
 <p align="center">
-  <a href="https://transitivebullsh.it">
-    <img alt="Desktop Home Page" src="https://ssfy.io/https%3A%2F%2Fwww.notion.so%2Fimage%2Fhttps%253A%252F%252Fs3-us-west-2.amazonaws.com%252Fsecure.notion-static.com%252F1d3ab4b2-60af-4b95-b35d-cac5d440b8ca%252Ftransitivebullsh.it_-opt.jpg%3Ftable%3Dblock%26id%3D97f445e8-2da1-41cd-996a-5ad0e73a1d79%26cache%3Dv2" width="600">
+  <a href="https://tirthpatel.vercel.app/">
+    <img alt="Desktop Home Page" src="https://github.com/Tirth27/Notion-Starter-Kit-Using-NextJs/blob/main/readme_images/2.png" width="600">
   </a>
 </p>
 
 ### Desktop Article Page (Dark Mode)
 
 <p align="center">
-  <a href="https://transitivebullsh.it/free-resources-for-indie-saas-devs">
-    <img alt="Desktop Article Page" src="https://ssfy.io/https%3A%2F%2Fwww.notion.so%2Fimage%2Fhttps%253A%252F%252Fs3-us-west-2.amazonaws.com%252Fsecure.notion-static.com%252Fb564d13f-b71b-4473-8531-65b5dd9b995f%252Ftransitivebullsh.it__(4)-opt.jpg%3Ftable%3Dblock%26id%3D16e03de2-0df7-4232-a129-e1666505c4d2%26cache%3Dv2" width="600">
+  <a href="https://tirthpatel.vercel.app/notion-starter-kit-using-nextjs">
+    <img alt="Desktop Article Page" src="https://github.com/Tirth27/Notion-Starter-Kit-Using-NextJs/blob/main/readme_images/5.png" width="600">
   </a>
 </p>
 
@@ -196,4 +196,4 @@ This table of contents uses the same logic that Notion uses for its built-in Tab
 
 The credits for this code go to [Travis Fischer](https://transitivebullsh.it). I've merely created a wrapper to get people started.
 
-Support Travis Fischer open source work by <a href="https://twitter.com/transitive_bs">Follow Travis on twitter <img src="https://storage.googleapis.com/saasify-assets/twitter-logo.svg" alt="twitter" height="24px" align="center"></a>
+Support Travis Fischers' open source work by <a href="https://twitter.com/transitive_bs">Follow Travis on twitter <img src="https://storage.googleapis.com/saasify-assets/twitter-logo.svg" alt="twitter" height="24px" align="center"></a>
