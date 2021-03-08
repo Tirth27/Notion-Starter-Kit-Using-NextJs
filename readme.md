@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://transitivebullsh.it/nextjs-notion-starter-kit">
+  <a href="https://tirthpatel.vercel.app/notion-starter-kit-using-nextjs">
     <img alt="Example article page" src="https://github.com/Tirth27/Notion-Starter-Kit-Using-NextJs/blob/main/readme_images/1.png" width="689">
   </a>
 </p>
