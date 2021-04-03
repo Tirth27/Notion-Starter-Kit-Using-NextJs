@@ -8,13 +8,16 @@ module.exports = {
 
   // basic site info (required)
   name: 'Tirth Patel',
-  domain: 'tirth27',
+  domain: 'tirthpatel.vercel.app',
   author: 'Tirth Patel',
 
   // open graph metadata (optional)
   description: 'Tirth Patel - Computer Vision, Machine Learning and Data Science Enthusiasts',
   socialImageTitle: 'Tirth Patel',
   socialImageSubtitle: 'Hello World! 👋',
+
+  // Search Google Console Config
+  googlesiteverification: '3sWcelbEzzJjzXQqfBbCggZ0SoYX8As1COb0maMhg3w',
 
   // social usernames (optional)
   twitter: 'Tirth_P27',
