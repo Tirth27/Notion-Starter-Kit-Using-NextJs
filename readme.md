@@ -50,7 +50,9 @@ All you really need to do to get started is edit `rootNotionPageId`. It defaults
 
 You'll want to make your root Notion page **public** and then copy the link to your clipboard. Then extract the last part of the URL that looks like `ea785093f0d94af4a6e3aaa936859cbf`, which is your page's Notion iD.
 
-I recommend setting up a collection on your home page (I use an inline gallery [here](https://www.notion.so/b4e78eac0aea4c6d90dc8da036598b68)) that contains all of your articles / projects / content. There are no structural constraints on your Notion workspace, however, so feel free to add content as you would normally in Notion. There are a few parts of the code with logic to only show comments on blog post pages (collection item detail pages).
+In order to find your Notion workspace ID (optional), just load any of your site's pages into your browser and open up the developer console. There will be a global variable that you can access called `block` which is the Notion data for the current page, and you just have to type `block.space_id` which will print out your page's workspace ID.
+
+I recommend setting up a collection on your home page (optional; I use an inline gallery [here](https://www.notion.so/b4e78eac0aea4c6d90dc8da036598b68)) that contains all of your articles / projects / content. There are no structural constraints on your Notion workspace, however, so feel free to add content as you would normally in Notion. There are a few parts of the code with logic to only show comments on blog post pages (collection item detail pages).
 
 ## URL Paths
 
